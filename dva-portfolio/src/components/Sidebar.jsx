@@ -79,13 +79,13 @@ export default function Sidebar() {
           <svg viewBox="0 0 16 16" width="16" height="16" fill="#8b949e">
             <path d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0114.25 14H1.75A1.75 1.75 0 010 12.25v-8.5C0 2.784.784 2 1.75 2zM1.5 12.251c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V5.809L8.38 9.397a.75.75 0 01-.76 0L1.5 5.809v6.442zm13-8.181v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88z" />
           </svg>
-          <a href="mailto:mausamdwivedi2020@gmail.com">mausamdwivedi2020@gmail.com</a>
+          <a href="mailto:nitanshugoyal786@gmail.com">nitanshugoyal786@gmail.com</a>
         </div>
         <div className="sidebar-info-item">
           <svg viewBox="0 0 16 16" width="16" height="16" fill="#8b949e">
             <path d="M11 0H5a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V2a2 2 0 00-2-2zM5 2h6v11H5V2zm3 13a1 1 0 110-2 1 1 0 010 2z" />
           </svg>
-          <a href="tel:8936836999">8936836999</a>
+          <a href="tel:8936836999">6284601329</a>
         </div>
       </div>
 

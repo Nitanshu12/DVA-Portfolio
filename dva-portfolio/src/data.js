@@ -1,44 +1,25 @@
-const base = import.meta.env.BASE_URL
+import Zomato from '/Zomato_dashboard.png'
+import Tech from '/Tech-layoffs.jpeg'
 
 const projects = [
   {
-    name: "E-commerce Sales Analytics",
-    description: "Comprehensive data analytics project analyzing sales performance across Indian domestic (Amazon India) and International channels. Utilizing Tableau for high-impact visualizations of revenue trends, category performance, and fulfillment efficiency.",
-    image: `${base}ecommerce_project.png`,
-    tags: ["tableau", "sales-analytics", "data-viz", "business-intelligence"],
-    categories: ["visualization", "analytics"],
-    github: "https://github.com/mausam-005/E-commerce-Sales-Analytics-Tableau",
-    live: "https://public.tableau.com/app/profile/mausam.kumar8507/viz/E-commerceSaleReportbyMausam/Dashboard1"
-  },
+  name: "Zomato Delivery Operations Analytics",
+  description: "Comprehensive data analytics project focused on Zomato delivery operations across India. Built interactive Tableau dashboards to analyze delivery time, traffic impact, weather conditions, partner performance, and operational efficiency, delivering data-driven business recommendations to improve on-time delivery and customer satisfaction.",
+  image: Zomato,
+  tags: ["tableau", "data-analytics", "operations-analysis", "data-viz", "business-intelligence"],
+  categories: ["visualization", "analytics"],
+  github: "https://github.com/Nitanshu12/C_G16_Zomato-Data-Analysis",
+  live: "https://public.tableau.com/views/Zomato_Delivery_Analysis/Dashboard1"
+},
   {
-    name: "Global AQI Analytics",
-    description: "Advanced environmental monitoring tool utilizing Python, Pandas, and NumPy. Features complex trend analysis and automated visualization suites using Seaborn (sns) for heatmaps and Plotly for interactive statistical dashboards.",
-    image: `${base}aqi_project.png`,
-    tags: ["python", "pandas", "numpy", "seaborn", "plotly", "data-viz"],
-    categories: ["python", "visualization"],
-    github: "https://github.com/mausam-005/SectionA_G10_GlobalAQIAnalytics",
-    live: "https://github.com/mausam-005/SectionA_G10_GlobalAQIAnalytics"
-  },
-  {
-    name: "DVA Capstone: Root Cause Analysis Suite",
-    description: "Interactive analytics suite developed for executive-level root cause reporting. Integrates a high-performance Tableau dashboard with an advanced Excel model utilizing complex logic formulas and pivot charts.",
-    image: `${base}dva_capstone.png`,
-    tags: ["tableau", "excel", "mysql", "dashboard"],
-    categories: ["visualization", "analytics"],
-    github: "https://github.com/mausam-005/DVA-Capstone",
-    live: "https://public.tableau.com/views/DVA_Dashboard_Final/DB-2RootCause?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-    secondaryLive: "https://docs.google.com/spreadsheets/d/1hOI7rUB05ancqKKBM7Kk_-6SlKks32fau-yoKpyPegU/edit?gid=1504644105#gid=1504644105",
-    secondaryLiveText: "View Spreadsheet"
-  },
-  {
-    name: "AI Real Estate Advisory Assistant",
-    description: "Agentic AI system for intelligent property valuation and investment recommendations in Bengaluru. Combines a Linear Regression ML model, RAG-based market retrieval via ChromaDB, and Google Gemini 1.5 Pro reasoning through a LangGraph workflow.",
-    image: `${base}genai_project.png`,
-    tags: ["python", "langgraph", "langchain", "gemini", "streamlit", "rag"],
-    categories: ["ai-ml", "python"],
-    github: "https://github.com/mausam-005/gen_ai_capstone",
-    live: "https://bengaluru-houseprice-predictor.streamlit.app",
-  },
+  name: "Tech Layoffs Workforce Analytics",
+  description: "Data analytics project analyzing workforce instability and layoff patterns in the global technology sector (2020–2025). Built an executive dashboard using Google Sheets to uncover trends across industries, funding stages, regions, and company sizes, identifying structural risk patterns and delivering data-driven strategies for workforce stability and predictive planning.",
+  image: Tech,
+  tags: ["data-analytics", "workforce-analytics", "data-viz", "business-intelligence", "google-sheets"],
+  categories: ["visualization", "analytics"],
+  github: "https://github.com/your-username/tech-layoffs-analysis", 
+  live: "https://docs.google.com/spreadsheets/d/your-dashboard-link"
+},
 ]
 
 export default projects

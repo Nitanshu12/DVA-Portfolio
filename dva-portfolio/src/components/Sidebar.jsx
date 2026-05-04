@@ -1,4 +1,4 @@
-const base = import.meta.env.BASE_URL
+import Profile from '../../public/profile_image.jpeg'
 
 export default function Sidebar() {
   const dvaSkills = [
@@ -15,19 +15,19 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <img
-        src={`${base}mausam.png`}
-        alt="Mausam Kumar Dwivedi"
+        src={Profile}
+        alt="Nitanshu Goyal"
         className="sidebar-avatar"
       />
-      <h1 className="sidebar-name">Mausam Kumar Dwivedi</h1>
-      <p className="sidebar-username">mausam-005</p>
+      <h1 className="sidebar-name">Nitanshu Goyal</h1>
+      <p className="sidebar-username">Nitanshu12</p>
       <p className="sidebar-bio">
         Data Analyst expert in <strong>Excel</strong>, <strong>Tableau</strong>, and <strong>MySQL</strong>, turning complex datasets into clear, actionable intelligence. 
         I leverage <strong>Python</strong>, <strong>Pandas</strong>, <strong>NumPy</strong>, <strong>Seaborn</strong>, and <strong>Plotly</strong> to build scalable models and automated dashboards.
       </p>
 
       <a
-        href="https://github.com/mausam-005"
+        href="https://github.com/Nitanshu12"
         target="_blank"
         rel="noreferrer"
         className="sidebar-follow-btn"
@@ -36,7 +36,7 @@ export default function Sidebar() {
       </a>
       <div className="sidebar-socials">
         <a
-          href="https://www.linkedin.com/in/mausam-kumar-818241343/"
+          href="https://www.linkedin.com/in/nitanshu-goyal-332824323/"
           target="_blank"
           rel="noreferrer"
           className="sidebar-social-btn"
@@ -55,11 +55,11 @@ export default function Sidebar() {
 
       <div className="sidebar-stats">
         <div className="sidebar-stat-item">
-          <strong>16</strong>
+          <strong>46</strong>
           <span>Repositories</span>
         </div>
         <div className="sidebar-stat-item">
-          <strong>1</strong>
+          <strong>2</strong>
           <span>Follower</span>
         </div>
         <div className="sidebar-stat-item">

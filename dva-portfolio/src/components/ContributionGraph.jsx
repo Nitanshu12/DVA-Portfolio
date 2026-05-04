@@ -21,7 +21,7 @@ export default function ContributionGraph() {
   ])
 
   useEffect(() => {
-    const url = `https://github-contributions-api.deno.dev/mausam-005.json${selectedYear ? `?year=${selectedYear}` : ""}`
+    const url = `https://github-contributions-api.deno.dev/Nitanshu12.json${selectedYear ? `?year=${selectedYear}` : ""}`
     fetch(url)
       .then(res => res.json())
       .then(res => {
